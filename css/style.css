@@ -1,5 +1,12 @@
 body {
-  font-family: 'Lato-light';
+  font-family: "Lato-light";
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  border-bottom: 20px;
+  text-align: center;
 }
 
 .bar {
