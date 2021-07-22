@@ -4,6 +4,9 @@ body {
 
 article {
   height: 1000px;
+  width: 500px;
+  margin-left: 400px;
+  margin-right: 500px;
 }
 
 h2 {
@@ -57,14 +60,8 @@ h2 {
 }
 
 .profile {
-  border-radius: 110px;
+  border-radius: 100px;
   border: 1px;
-}
-
-.container-profile {
-  width: 500px;
-  margin-left: 400px;
-  margin-right: 500px;
 }
 
 .imgprof-container {
