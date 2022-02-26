@@ -86,7 +86,7 @@ h2 {
 .social li{
   display: inline-block;
   filter: invert(0.2);
-  margin-right: 20px;
+  margin-right: 50px;
   transform: scale(1);
   transition: 0.5s;
 }
