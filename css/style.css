@@ -11,9 +11,7 @@ body {
 
 article {
   display:flex;
-  margin-left: 400px;
-  margin-right: 500px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -86,14 +84,15 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-
-  background: rgba(126, 155, 219, 0.75);
+  background: rgba(9, 15, 29, 0.596);
+  height: 50px; 
 }
 
 .primary-navigation li {
   list-style: none;
-  display: inline-block;
-  justify-content: space-between;
+  display:inline-flex;
+  justify-content:space-between;
+  
 }
 
 .foot {
