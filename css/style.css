@@ -36,9 +36,8 @@ h2 {
   text-align: center;
 }
 .ed-info {
-  position: relative;
-  float: right;
   text-align: justify;
+  justify-content: space-between;
 }
 
 .profile {
