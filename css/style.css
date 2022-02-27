@@ -64,6 +64,7 @@ h2 {
   margin-right: 50px;
   transform: scale(1);
   transition: 0.5s;
+  mix-blend-mode: darken;
 }
 
 .social li:hover{
@@ -95,3 +96,8 @@ h2 {
   justify-content: space-between;
 }
 
+.foot {
+  background: rgba(9, 15, 29, 0.596);
+  height: 200px;
+  opacity: 0.8;
+}
