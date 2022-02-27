@@ -13,13 +13,14 @@ article {
   display:flex;
   margin-left: 400px;
   margin-right: 500px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
+  font-family: "Lato", Courier, monospace;
+  font-size: 20px;
   border-bottom: 20px;
   text-align: center;
 }
@@ -30,21 +31,7 @@ h2 {
   font-family: "Courier New", Courier, monospace;
 }
 
-.education-section {
-  position: absolute;
-}
-
-.education-section-2 {
-  margin-top: 100px;
-  position: absolute;
-}
-.education-section-3 {
-  margin-top: 200px;
-  position: absolute;
-}
 .ed-image {
-  position: relative;
-  float: left;
   width: 130px;
   text-align: center;
 }
@@ -53,8 +40,6 @@ h2 {
   float: right;
   text-align: justify;
 }
-
-
 
 .profile {
   border-radius: 100px;
@@ -97,59 +82,17 @@ h2 {
   justify-content: space-between;
 }
 
-.mobile-nav-toggle{
-  display: none;
-}
-
 .primary-navigation{
   list-style: none;
   padding: 0;
   margin: 0;
 
-  background: hsl(0 0% 0% / 0.75);
+  background: rgba(122, 152, 218, 0.75);
 }
 
-.primary-navigation a{ 
-  text-decoration: none;
+.primary-navigation li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
 }
 
-.primary-navigation a > span{ 
-  font-weight: 700;
-  margin-inline-end: .5em;
-}
-
-@media (min-width: 35em){
-    .primary-navigation{
-      --gap: 2em;
-        
-      position: fixed;
-      inset: 0 0 0 30%;
-      
-      flex-direction: column;
-      padding: min(20vh, 10rem) 2em;
-
-      transform: translateY(100%);
-  }
-  .primary-navigation[data-visible='true']{
-      transform: translateY(0%);
-  }
-  .mobile-nav-toggle {
-    display: block;
-    position: absolute;
-    z-index: 9999;
-    background: rgb(138, 144, 182);
-    width: 2rem;
-    border: 0;
-    aspect-ratio: 1;
-    top: 2rem;
-    right: 2rem;
-  }
-  
-}
-
-@supports( backdrop-filter: blur(1rem)){
-    .primary-navigation{
-      background: hsl(0 0% 100% / 0.1);
-      backdrop-filter: blur(1rem);
-    }
-}
