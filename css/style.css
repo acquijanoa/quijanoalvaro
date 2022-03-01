@@ -12,9 +12,11 @@ body {
 article {
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
 }
+
+
 
 h2 {
   font-family: "Lato", Courier, monospace;
@@ -34,8 +36,8 @@ h2 {
   text-align: center;
 }
 .ed-info {
-  text-align: justify;
-  justify-content: space-between;
+  text-align: left;
+  justify-content: space-around;
 }
 
 .profile {
@@ -95,3 +97,4 @@ h2 {
   height: 200px;
   opacity: 0.8;
 }
+
