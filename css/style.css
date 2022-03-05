@@ -126,3 +126,40 @@ h2 {
   align-items: center;
   text-align: center;
 }
+
+.toggle-button {
+  position: absolute;
+  top: 0.7;
+  right: 1rem;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30px;
+  height: 28px;
+}
+
+.toggle-button .bar {
+  width: 15%;
+  background-color: rgb(163, 179, 179);
+  border-radius: 10px;
+  align-items: flex-end;
+}
+
+.bar1 { height: 40%; }
+.bar2 { height: 70%; }
+.bar3 { height: 90%; }
+.bar4 { height: 70%; }
+.bar5 { height: 40%; }
+
+@media ( max-width: 600px){
+  .text {
+    width: 80%;
+  }
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+}
