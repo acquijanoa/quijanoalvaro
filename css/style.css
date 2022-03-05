@@ -98,6 +98,10 @@ h2 {
   opacity: 0.8;
 }
 
-.descriptor {
+.text {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
