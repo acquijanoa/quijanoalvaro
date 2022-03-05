@@ -139,17 +139,16 @@ h2 {
 }
 
 .toggle-button .bar {
-  width: 15%;
-  background-color: rgb(163, 179, 179);
+  width: 10%;
   border-radius: 10px;
-  align-items: flex-end;
+  background-color: rgb(75, 162, 189);
 }
 
-.bar1 { height: 40%; }
-.bar2 { height: 70%; }
+.bar1 { height: 40%;}
+.bar2 { height: 70%;}
 .bar3 { height: 90%; }
-.bar4 { height: 70%; }
-.bar5 { height: 40%; }
+.bar4 { height: 73%; }
+.bar5 { height: 42%;}
 
 @media ( max-width: 600px){
   .text {
@@ -157,6 +156,7 @@ h2 {
   }
   .toggle-button{
     display: flex;
+    align-items: flex-end;
   }
 
   .navbar-links {
