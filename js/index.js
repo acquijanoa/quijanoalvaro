@@ -1,3 +1,9 @@
-'use strict';
+//'use strict';
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+if(toggleButton){
+  toggleButton.addEventListener('click', console.log('true') , false)
+}
 
