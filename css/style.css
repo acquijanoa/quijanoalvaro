@@ -147,13 +147,17 @@ h2 {
   transition: background-color 1000ms linear;
 }
 
+.ul-blog li {
+  list-style:disc;
+  display:list-item;
+}
 
 @media ( max-width: 500px){
   .text {
-    width: 70%;
+    width: 50%;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-between;
+    align-items:flex-start;
     text-align:center;
   }
   .toggle-button{
