@@ -32,6 +32,7 @@ article {
   font-family: 'Russo One', sans-serif;
   font-size: 1.5rem;
   margin: 0.5rem;
+  text-decoration: none;
 }
 
 .navbar-links ul{
@@ -140,15 +141,16 @@ h2 {
 
 .toggle-button .bar {
   width: 10%;
-  border-radius: 10px;
-  background-color: rgb(75, 162, 189);
+  background-color: rgb(140, 191, 206);
 }
 
-.bar1 { height: 40%;}
-.bar2 { height: 70%;}
-.bar3 { height: 90%; }
-.bar4 { height: 73%; }
-.bar5 { height: 42%;}
+.bar1 { height: 15%;}
+.bar2 { height: 35%;}
+.bar3 { height: 65%;}
+.bar4 { height: 83%;}
+.bar5 { height: 62%;}
+.bar6 { height: 32%;}
+.bar7 { height: 17%;}
 
 @media ( max-width: 600px){
   .text {
