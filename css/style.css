@@ -43,10 +43,11 @@ article {
 
 .navbar-links li{
   list-style: none;
+  border-radius: 50%;
 }
 
 .navbar-links li:hover{
-  background-color: rgb(93, 133, 139);
+  background-color: rgb(82, 82, 83);
 }
 
 .navbar-links li a{
@@ -158,6 +159,28 @@ h2 {
     align-items: flex-end;
   }
   .navbar-links {
-    display: none;
+    display: inline;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+    border-radius: 0%;
+  }
+
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active{
+      display: inline;
   }
 }
