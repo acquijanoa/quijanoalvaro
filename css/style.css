@@ -131,6 +131,7 @@ h2 {
 .toggle-button {
   position: absolute;
   top: 0.7;
+  margin-top: 5px;
   right: 1rem;
   display: none;
   flex-direction: row;
@@ -173,11 +174,9 @@ h2 {
   .navbar-links li {
     text-align: center;
   }
-
   .navbar-links li a{
     padding: .5rem 1rem;
   }
-
   .navbar-links.active {
       display: flex;
   }
