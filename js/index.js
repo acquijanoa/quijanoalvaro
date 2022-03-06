@@ -11,9 +11,6 @@ toggleButton.addEventListener('click', () => {
     }
 });
 
-navbarLinks.addEventListener('mouseout', () => {
-        navbarLinks.classList.toggle('active');
-});
 
 
 

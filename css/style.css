@@ -109,9 +109,9 @@ h2 {
 .text {
   width: 60%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content:flex-start;
+  align-items:center;
+  text-align:center;
 }
 
 .toggle-button {
@@ -148,9 +148,13 @@ h2 {
 }
 
 
-@media ( max-width: 600px){
+@media ( max-width: 500px){
   .text {
-    width: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
   }
   .toggle-button{
     display: flex;
@@ -164,7 +168,6 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .navbar-links ul{
     width: 100%;
     flex-direction: column;
@@ -178,4 +181,5 @@ h2 {
   .navbar-links.active {
       display: flex;
   }
+
 }
