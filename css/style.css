@@ -80,7 +80,7 @@ p {
 
 
 .imgprof-container {
-  width: 800px;
+  width: 40%;
   text-align: center;
 }
 
@@ -163,6 +163,10 @@ p {
 }
 
 @media ( max-width: 500px){
+
+  .text {
+    width: 80%;
+  }
   .toggle-button{
     display: flex;
     align-items: flex-end;
