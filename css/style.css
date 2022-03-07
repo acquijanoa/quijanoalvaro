@@ -156,7 +156,6 @@ p {
 }
 
 .education .ed-info:hover {
-  font-size: 25px;
   background-color: rgb(221, 223, 223);
   transition: background-color 1000ms linear;
 }
