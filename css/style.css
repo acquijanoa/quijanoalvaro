@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Roboto,sans-serif;
 }
 
 body {
@@ -30,7 +31,7 @@ article {
 
 .brand-title {
   font-family: 'Jura', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 0.5rem;
   text-decoration: none;
 }
@@ -43,9 +44,12 @@ article {
 
 .navbar-links li{
   list-style: none;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .navbar-links li:hover{
+  font-size: 20.5px;
   background-color: rgb(82, 82, 83);
   transition: background-color 1000ms linear;
 }
@@ -58,19 +62,25 @@ article {
 }
 
 h2 {
-  font-family: "Lato", ;
-  font-size: 20px;
+  font-size: 30px;
   border-bottom: 20px;
   text-align: center;
 }
 
+p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 .profile {
-  border-radius: 100px;
+  width: 250px;
+  border-radius: 200px;
   border: 1px;
 }
 
+
 .imgprof-container {
-  width: 600px;
+  width: 800px;
   text-align: center;
 }
 
@@ -107,7 +117,7 @@ h2 {
 }
 
 .text {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content:flex-start;
   align-items:center;
@@ -153,13 +163,6 @@ h2 {
 }
 
 @media ( max-width: 500px){
-  .text {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    text-align:center;
-  }
   .toggle-button{
     display: flex;
     align-items: flex-end;
@@ -186,4 +189,36 @@ h2 {
       display: flex;
   }
 
+}
+
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 2;
+  color: white;
+}
+
+.showcase video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #dbc19f;
+  z-index: 2;
+  mix-blend-mode: overlay;
 }
