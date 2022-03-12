@@ -90,7 +90,7 @@ p {
 }
 
 .imgprof-container {
-  width: 40%;
+  width: fit-content;
   text-align: center;
 }
 
