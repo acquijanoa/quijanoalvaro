@@ -21,6 +21,17 @@ article {
   flex-direction: column;
 }
 
+h2 {
+  font-size: 30px;
+  border-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -61,23 +72,11 @@ article {
   padding: 1rem;
 }
 
-h2 {
-  font-size: 30px;
-  border-bottom: 20px;
-  text-align: center;
-}
-
-p {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
 .profile {
   width: 250px;
   border-radius: 200px;
   border: 1px;
 }
-
 
 .imgprof-container {
   width: 40%;
@@ -200,37 +199,4 @@ p {
   .navbar-links.active {
       display: flex;
   }
-
-}
-
-.showcase {
-  position: absolute;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  z-index: 2;
-  color: white;
-}
-
-.showcase video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #dbc19f;
-  z-index: 2;
-  mix-blend-mode: overlay;
 }
