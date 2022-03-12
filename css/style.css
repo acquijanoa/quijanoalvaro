@@ -12,6 +12,7 @@ body {
   background-color: hsl(var(--clr-dark));
   grid-template-rows: min-content 1fr;
   overflow-x: hidden ;
+  background-color: rgb(241, 241, 241);
 }
 
 article {
@@ -30,6 +31,18 @@ h2 {
 p {
   font-size: 20px;
   font-weight: lighter;
+}
+
+.back {
+  display:flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+  border-radius: 10px;
 }
 
 .navbar {
@@ -119,7 +132,7 @@ p {
 }
 
 .text {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content:flex-start;
   align-items:center;
@@ -164,12 +177,16 @@ p {
   display:list-item;
 }
 
-@media ( max-width: 650px){
+
+@media ( max-width: 800px){
   h2 { 
     font-size: 28px;
   }
+  .back {
+    width: 85%;
+  }
   .text {
-    width: 80%;
+    width: 90%;
   }
   .education {
     width: 80%;
