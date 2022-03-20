@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: Roboto,sans-serif;
+  font-family: Montserrat,sans-serif;
+  font-weight: 200;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato-light";
   display: grid;
   min-height: 100vh;
   background-color: hsl(var(--clr-dark));
@@ -28,7 +28,7 @@ h2 {
 
 p {
   font-size: 20px;
-  font-weight: lighter;
+  
 }
 
 .back {
@@ -53,7 +53,6 @@ p {
 }
 
 .brand-title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
   margin: 0.5rem;
   text-decoration: none;
