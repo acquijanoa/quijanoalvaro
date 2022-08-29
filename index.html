@@ -5,69 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    <meta name="Alvaro Clemente Quijano-Angarita" content="Alvaro Clemente Quijano-Angarita, Biostatistician from Colombia at UNC Chapel Hill. Fulbright scholar. SAS and R programmer.">
-    <title> Álvaro Quijano-Angarita | Biostatistician & Data Analyst </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <meta
+      name="Alvaro Clemente Quijano-Angarita"
+      content="Alvaro Clemente Quijano-Angarita, Biostatistician from Colombia at UNC Chapel Hill. Fulbright scholar. SAS and R programmer."
+    />
+    <title>Álvaro Quijano-Angarita | Biostatistician & Data Analyst</title>
   </head>
   <body>
-    <header> <!---class = "showcase" -->
-      <nav class = 'navbar'> <!---navbar-->
-        <a class = 'brand-title' href="index.html"> Álvaro Quijano </a>
-        <a href = '#' id = 'togbutton' class = 'toggle-button'> 
-            <span class= "bar bar1" style="background-color:#e4934b"></span>
-            <span class= "bar bar2" style="background-color:#fee090"></span>
-            <span class= "bar bar3" style="background-color:#e1e7e7"></span>
-            <span class= "bar bar4" style="background-color:#91bcc6"></span>
-        </a>
-        <div class = 'navbar-links'> 
+    <nav class="navbar">
+      <!---navbar-->
+      <a class="brand-title" href="index.html"> Álvaro Quijano </a>
+      <a href="#" id="togbutton" class="toggle-button">
+        <span class="bar bar1" style="background-color: #e4934b"></span>
+        <span class="bar bar2" style="background-color: #fee090"></span>
+        <span class="bar bar3" style="background-color: #e1e7e7"></span>
+        <span class="bar bar4" style="background-color: #91bcc6"></span>
+      </a>
+      <div class="navbar-links">
         <ul>
-          <li> <a href="#about-me">  About me </a> </li>
-          <li> <a href="#Education">  Education </a> </li>
+          <li><a href="#about-me"> About me </a></li>
+          <li><a href="#Education"> Education </a></li>
           <!--- <li> <a href="blog.html">  Blog </a> </li> --->
-          <li> <a href="cv.html">  Resume </a> </li>
-          <li> <a href="#contact">  Contact </a> </li>
+          <li><a href="cv.html"> Resume </a></li>
+          <li><a href="#contact"> Contact </a></li>
         </ul>
       </div>
-      </nav>
-      <!-- <video src="images/header.mp4" muted loop autoplay class = 'showcase'>  </video> --->
-    </header>
+    </nav>
     <!--- <div class = 'overlay'> </div>  -->
 
-    <article>
-    
-      <div> <h2> Biostatistician | Data Analyst </h2></div>
-      <div class="imgprof-container"> <img src="images/AlvaroQ.jpeg" width="200" class="profile" /> </div>
-    
-      <h2 id = 'about-me'> About me </h2>
-      <div class = 'back'> 
-      <div class = 'text'><p> 
-         <img src="images/Fulbright.png" style="width: 25px"> <span style='color:rgb(0, 61, 165); font-weight: bold; font-family: "Montserrat"; font-size: 18px;'>FULBRIGHT </span> scholar originally from Colombia. First year MS student in Biostatistics at the University of North Carolina at Chapel Hill. Graduated from the National University of Colombia in 2020 with a major in Statistics.
-      </p></div>
-      <div class = 'text'><p> 
-        Graduate Research Assistant for the Hispanic Community Health Study / Study of Latinos (HCHS/SOL) at the Collaborative Studies Coordinading Center (CSCC). Responsible for assisting DrPH. <a href="https://sph.unc.edu/adv_profile/daniela-sotres-alvarez-drph/" target="_blank" style="text-decoration: none; font-weight: 300; color: rgb(16, 59, 88) "> Daniela Sotres-Alvarez</a> in the ancilliary study Family Lifestyle Outcomes Research (SOL FLOR) and Stress Gender and Minority - Study of Latinos (SGM SOL).
-      </p></div>
-      <div class = 'text'><p > 
-        Proficient in R, SAS and SQL.
-      </p></div>
-    </div>
-    <h2> Research interests </h2>
-    <div class="back">
-      <div class = 'text'><p>
-        Bayesian statistics and disease mapping, spatial demography and biostatistics.
-      </p></div>
-    </div>
-    <h2  id = 'Education'>Education</h2>
-    <div class="back">
-      <div class = 'education'>
-          <p class = 'ed-info'>
+    <div class="webbody">
+      <div><h2>Biostatistician | Data Analyst</h2></div>
+      <div class="imgprof-container">
+        <img src="images/AlvaroQ.jpeg" width="200" class="profile" />
+      </div>
+
+      <h2 id="about-me">About me</h2>
+      <div class="back">
+        <div class="text">
+          <p>
+            <img src="images/Fulbright.png" style="width: 25px" />
+            <span
+              style="
+                color: rgb(0, 61, 165);
+                font-weight: bold;
+                font-family: 'Montserrat';
+                font-size: 18px;
+              "
+              >FULBRIGHT
+            </span>
+            scholar originally from Colombia. First year MS student in
+            Biostatistics at the University of North Carolina at Chapel Hill.
+            Graduated from the National University of Colombia in 2020 with a
+            major in Statistics.
+          </p>
+        </div>
+        <div class="text">
+          <p>
+            Graduate Research Assistant for the Hispanic Community Health Study
+            / Study of Latinos (HCHS/SOL) at the Collaborative Studies
+            Coordinading Center (CSCC). Responsible for assisting DrPH.
+            <a
+              href="https://sph.unc.edu/adv_profile/daniela-sotres-alvarez-drph/"
+              target="_blank"
+              style="
+                text-decoration: none;
+                font-weight: 300;
+                color: rgb(16, 59, 88);
+              "
+            >
+              Daniela Sotres-Alvarez</a
+            >
+            in the ancilliary study Family Lifestyle Outcomes Research (SOL
+            FLOR) and Stress Gender and Minority - Study of Latinos (SGM SOL).
+          </p>
+        </div>
+        <div class="text"><p>Proficient in R, SAS and SQL.</p></div>
+      </div>
+      <h2>Research interests</h2>
+      <div class="back">
+        <div class="text">
+          <p>
+            Bayesian statistics and disease mapping, spatial demography and
+            biostatistics.
+          </p>
+        </div>
+      </div>
+      <h2 id="Education">Education</h2>
+      <div class="back">
+        <div class="education">
+          <p class="ed-info">
             <strong> University of North Carolina at Chapel Hill</strong>
             <br />
             MSc in Biostatistics
             <br />
             Chapel Hill, NC.
           </p>
-          <p class = 'ed-info'>
+          <p class="ed-info">
             <strong> Universidad Nacional de Colombia</strong>
             <br />
             BSc in Statistics
@@ -82,8 +121,8 @@
             <br />
             Bogotá, Colombia.
           </p>-->
-      </div>
-      <!--
+        </div>
+        <!--
     
       <h2 id = 'portfolio'> Portfolio </h2>
       <div class="back">
@@ -91,30 +130,35 @@
       </div>
       ------>
       </div>
-      <h2 id = 'contact'> Contact </h2>
-      <div class='back'>
+      <h2 id="contact">Contact</h2>
+      <div class="back">
         <p>
-          Gillings School of Global Public Health<br/>
-          Department of Biostatistics<br/>
-          McGavran-Greenberg Hall<br/>
-          135 Dauer Dr, Chapel Hill, NC 27599<br/><br/>
-          E-mail: acquijanoa@unc.edu<br/>
+          Gillings School of Global Public Health<br />
+          Department of Biostatistics<br />
+          McGavran-Greenberg Hall<br />
+          135 Dauer Dr, Chapel Hill, NC 27599<br /><br />
+          E-mail: acquijanoa@unc.edu<br />
         </p>
       </div>
-      
-    </article>
-    
-    <footer class = 'foot'>
+    </div>
+
+    <footer class="foot">
       <ul class="social">
-        <li> <a href="https://www.linkedin.com/in/acquijanoa/" target="_blank"
-          ><img src="images/linkedin.png" width="30"
-        /></a></li>
-        <li> <a href="https://www.instagram.com/alvaro_quijano/" target="_blank"
-          ><img src="images/instagram.png" width="30"
-        /> </a></li>
-        <li> <a href="https://www.twitter.com/quijanoalvaro_/" target="_blank"
-          ><img src="images/twitter.png" width="30"
-        /></a> </li>
+        <li>
+          <a href="https://www.linkedin.com/in/acquijanoa/" target="_blank"
+            ><img src="images/linkedin.png" width="30"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/alvaro_quijano/" target="_blank"
+            ><img src="images/instagram.png" width="30" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/quijanoalvaro_/" target="_blank"
+            ><img src="images/twitter.png" width="30"
+          /></a>
+        </li>
       </ul>
       Copyright &copy; 2022 by Álvaro Clemente Quijano Angarita
     </footer>

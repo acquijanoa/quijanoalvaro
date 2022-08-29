@@ -5,7 +5,5 @@ const navbarLinks = document.querySelector('.navbar-links');
 const navbar = document.querySelector('.navbar');
 
 toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active');
+  navbarLinks.classList.toggle('active');
 });
-
-
