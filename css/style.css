@@ -1,6 +1,9 @@
+@import 'https://unpkg.com/open-props@1.4.14/open-props.min.css';
+@import 'https://unpkg.com/open-props@1.4.14/normalize.min.css';
+
 * {
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: 200;
   scroll-behavior: smooth;
 }
@@ -36,6 +39,36 @@ p {
   border-radius: 10px;
 }
 
+.news {
+  --spacer: var(--size-3);
+  display: grid;
+  grid-auto-flow: column;
+  gap: var(--spacer);
+  grid-auto-columns: 21%;
+
+  padding: var(--spacer) var(--spacer);
+
+  width: 60%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+  border-radius: 10px;
+}
+
+.newbox {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: var(--spacer);
+  padding: var(--spacer);
+  background: var(--surface-2);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-1);
+}
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -44,6 +77,15 @@ p {
   align-items: center;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
 }
 
 .brand-title {
