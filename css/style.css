@@ -172,7 +172,7 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 
 .toggle-button {
@@ -229,7 +229,7 @@ p {
     width: 85%;
   }
   .text {
-    width: 90%;
+    width: 80%;
   }
   .education {
     width: 80%;
@@ -262,6 +262,7 @@ p {
 }
 
 .webbody {
+  padding-top: 20mm;
   display: flex;
   flex-direction: column;
   align-items: center;
