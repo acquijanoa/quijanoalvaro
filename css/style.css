@@ -211,11 +211,14 @@ p {
   justify-content: space-evenly;
 }
 
+.ed-info {
+  padding: 15px;
+  border: white solid 2px;
+}
+
 .education .ed-info:hover {
   background-color: rgb(221, 223, 223);
   transition: background-color 1000ms linear;
-  padding: 15px;
-  border: white solid 2px;
 }
 
 .ul-blog li {
