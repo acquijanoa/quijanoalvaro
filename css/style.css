@@ -40,6 +40,19 @@ p {
   border-radius: 10px;
 }
 
+.back-hz {
+  display: flex;
+  width: 60%;
+  padding: 40px;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+  border-radius: 10px;
+}
+
 .news {
   --spacer: var(--size-3);
   display: grid;
@@ -128,9 +141,11 @@ p {
   border: 1px;
 }
 
-.imgprof-container {
-  width: fit-content;
-  text-align: center;
+.profile2 {
+  width: 400px;
+  border-radius: 20px;
+  border: 1px;
+  padding: 10px;
 }
 
 .hidden {
