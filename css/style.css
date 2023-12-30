@@ -30,6 +30,7 @@ p {
 .back {
   display: flex;
   width: 60%;
+  padding: 40px;
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -232,6 +233,7 @@ p {
   }
   .back {
     width: 85%;
+    padding: 20px;
   }
   .text {
     width: 80%;
