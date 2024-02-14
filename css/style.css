@@ -242,6 +242,23 @@ p {
   display: list-item;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.container:hover {
+  background-color: rgb(221, 223, 223);
+  transition: background-color 1000ms linear;
+}
+
 @media (max-width: 800px) {
   h2 {
     font-size: 28px;
